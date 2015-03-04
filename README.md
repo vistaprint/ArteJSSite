@@ -73,7 +73,7 @@ gem install jekyll --version "=1.4.2"
  * ```npm install```
 
 # Adding a new module
-To add a new library/module to skinny.js, do the following:
+To add a new library/module to ArteJS, do the following:
 * Add a documentation file: site/*.md (i.e. jquery.breakpoints.md)
 * Add to the site menu: site/_layouts/main-outer.html (remember to add in alphabetical order) 
 * Add to the homepage: site/index.html

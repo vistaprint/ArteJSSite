@@ -1,5 +1,5 @@
 $sitepath=pwd
-$contentpath="../skinny"
+$contentpath="../artejs"
 
 # Point to Ruby 2. 
 # TODO: Find a way to make this portable.
@@ -39,6 +39,8 @@ if ($LASTEXITCODE -ne  0)
 }
 
 pushd $sitepath
+
+chcp 65001
 
 # Build the site
 grunt
