@@ -1,0 +1,30 @@
+﻿body > div {
+    background-color: white;
+    margin:auto;
+    max-width: 750px;    
+}
+
+.overview{
+    margin-bottom: 5px;
+}
+
+.editor
+{
+    border: 1px solid black;
+}
+
+.widget-wrapper
+{
+    position: relative;
+    padding-top: 350px;
+    height: 0;
+    overflow: hidden;
+}
+iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
